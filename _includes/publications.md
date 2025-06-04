@@ -49,3 +49,7 @@
 
 </ol>
 </div>
+
+<div style="text-align: right; font-size: 0.9em; margin-top: 10px;">
+*Equal Contribution
+</div>

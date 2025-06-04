@@ -4,20 +4,26 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a senior-year undergraduate student in the CSIE department at National Taiwan University.
+I've had the pleasure of collaborating with Prof. [Shang-Tse Chen](https://www.csie.ntu.edu.tw/~stchen/) and Prof. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/).
+Currently, I am a visiting student at the [CompLING Lab, University of Waterloo](https://compling-wat.com/),
+working with Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
 
-## Research Interests
+In terms of research focus, I have worked on improving the [adversarial robustness](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html) of vision models.
+Broadly, I am interested in understanding the underlying mechanism of machine learning models and aim to contribute to building powerful, trustworthy AI/ML systems.
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+<!-- ## Research Interests
+
+- **Computer Vision:** 
+- **Machine Learning:** -->
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[June 2025]** I am currently a visiting student at
+ [CompLING](https://compling-wat.com/), hosted by Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
+- **[May 2025]** Our paper on certified robustness has been accepted to ICML 2025.
+
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+<!-- {% include_relative _includes/services.md %} -->
