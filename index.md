@@ -19,7 +19,7 @@ Broadly, I am interested in understanding the underlying mechanism of machine le
 
 ## News
 
-- **[June 2025]** I am currently a visiting
+- **[June 2025]** I am currently visiting
  [CompLING](https://compling-wat.com/), hosted by Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
 - **[May 2025]** Our paper on certified robustness has been accepted to ICML 2025.
 
