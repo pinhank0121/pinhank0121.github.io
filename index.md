@@ -10,7 +10,7 @@ Currently, I am a visiting student at the [CompLING Lab, University of Waterloo]
 working with Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
 
 In terms of research focus, I have worked on improving the [adversarial robustness](https://nicholas.carlini.com/writing/2019/all-adversarial-example-papers.html) of vision models.
-Broadly, I am interested in understanding the underlying mechanism of machine learning models and aim to contribute to building powerful, trustworthy AI/ML systems.
+Broadly, I am interested in understanding the underlying mechanisms of machine learning models, with the goal of contributing to the development of trustworthy and powerful AI/ML systems.
 
 <!-- ## Research Interests
 

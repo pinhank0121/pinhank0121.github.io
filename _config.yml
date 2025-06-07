@@ -6,13 +6,13 @@ second_email: b10902065@csie.ntu.edu.tw
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Pin-Han Huang, NTU, CS, Machine Learning
+keywords: Pin-Han Huang, NTU, CS, Machine Learning, Deep Learning
 description: Pin-Han Huang's personal website
 canonical: https://pinhank0121.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-# google_scholar: https://scholar.google.com/
+google_scholar: https://scholar.google.com/citations?hl=en&user=l03sWRkAAAAJ
 # cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/pinhank0121
 linkedin: https://www.linkedin.com/in/pin-han-huang-480014261/
