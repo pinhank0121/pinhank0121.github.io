@@ -4,11 +4,10 @@ layout: homepage
 
 ## About Me
 
-I am a senior-year undergraduate student in the Computer Science & Information Engineering Department at National Taiwan University.
-I've had the pleasure of collaborating with Prof. [Shang-Tse Chen](https://www.csie.ntu.edu.tw/~stchen/) and Prof. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/).
+I obtained my Bachelor’s degree in Computer Science from National Taiwan University (NTU) in August 2025.
+During my studies, I've had the pleasure of collaborating with Prof. [Shang-Tse Chen](https://www.csie.ntu.edu.tw/~stchen/) and Prof. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/). I was also a visiting student at [CompLING Lab](https://compling-wat.com/) (University of Waterloo), where I worked with Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
 
-Currently, I am a visiting student at the [CompLING Lab, University of Waterloo](https://compling-wat.com/),
-working with Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
+My research focuses on understanding the flaws and unexpected behaviors of ML models while advancing the trustworthiness of AI systems.
 
 <!-- ## Research Interests
 
@@ -17,8 +16,7 @@ working with Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
 
 ## News
 
-- **[June 2025]** I am currently visiting
- [CompLING](https://compling-wat.com/), hosted by Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
+- **[June 2025]** I am visiting [CompLING](https://compling-wat.com/) for my summer internship.
 - **[May 2025]** Our paper on certified robustness has been accepted to ICML 2025.
 
 
