@@ -4,9 +4,10 @@ main:
     conference_short: ICML
     conference: <strong>ICML 2025 <i style="color:#000080">(Spotlight)</i></strong>
     page: https://bob1113.github.io/BRONet/
-    pdf: https://www.arxiv.org/pdf/2505.15174
+    arxiv: https://www.arxiv.org/abs/2505.15174
     code: https://github.com/ntuaislab/BRONet
     image: ./assets/img/bro_teaser.png
+    openreview: https://openreview.net/forum?id=S2K5MyRjrL
     # notes: Spotlight
     
 

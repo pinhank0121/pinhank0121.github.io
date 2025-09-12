@@ -5,9 +5,9 @@ layout: homepage
 ## About Me
 
 I obtained my Bachelor’s degree in Computer Science from National Taiwan University (NTU) in August 2025.
-During my studies, I've had the pleasure of collaborating with Prof. [Shang-Tse Chen](https://www.csie.ntu.edu.tw/~stchen/) and Prof. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/). I was also a visiting student at [CompLING Lab](https://compling-wat.com/) (University of Waterloo), where I worked with Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
+During my studies, I've had the pleasure of collaborating with Prof. [Shang-Tse Chen](https://www.csie.ntu.edu.tw/~stchen/) and Prof. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/). I was also a visiting student at University of Waterloo, where I worked with Prof. [Freda Shi](https://cs.uwaterloo.ca/~fhs/).
 
-My research focuses on understanding the flaws and unexpected behaviors of ML models and on advancing the trustworthiness of AI systems.
+I am interested in understanding undesirable behaviors of ML models and advancing the trustworthiness of AI systems.
 
 <!-- ## Research Interests
 
