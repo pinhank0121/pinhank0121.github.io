@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Research</h2>
 
 <div class="publications">
 <ol class="bibliography">
@@ -10,8 +10,15 @@
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% if link.conference_short %}
+    {% assign badge_style = "" %}
+    {% if link.badge_color %}
+    {% assign badge_style = badge_style | append: "background-color: " | append: link.badge_color | append: ";" %}
+    {% endif %}
+    {% if link.badge_text_color %}
+    {% assign badge_style = badge_style | append: " color: " | append: link.badge_text_color | append: ";" %}
+    {% endif %}
+    <abbr class="badge"{% if badge_style != "" %} style="{{ badge_style }}"{% endif %}>{{ link.conference_short }}</abbr>
     {% endif %}
     {% endif %}
   </div>
@@ -21,9 +28,11 @@
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
-      {% assign arxiv_url = link.arxiv | default: link.pdf %}
-      {% if arxiv_url %} 
-      <a href="{{ arxiv_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">arXiv</a>
+      {% if link.arxiv %} 
+      <a href="{{ link.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">arXiv</a>
+      {% endif %}
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>

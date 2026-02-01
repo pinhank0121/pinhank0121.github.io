@@ -1,4 +1,13 @@
 main:
+  - title: "Expanding the Role of Diffusion Models for Robust Classifier Training"
+    authors: <strong>Pin-Han Huang</strong>, Shang-Tse Chen, Hsuan-Tien Lin
+    conference_short: Preprint
+    conference: Under Review
+    pdf: ./assets/files/DRA_Preprint.pdf
+    image: ./assets/img/dra_method.png
+    badge_color: "#4C1D95"
+    badge_text_color: "#ffffff"
+
   - title: "Enhancing Certified Robustness via Block Reflector Orthogonal Layers and Logit Annealing Loss"
     authors: Bo-Han Lai*, <strong>Pin-Han Huang</strong>*, Bo-Han Kung*, Shang-Tse Chen
     conference_short: ICML
