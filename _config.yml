@@ -20,7 +20,7 @@ linkedin: https://www.linkedin.com/in/pin-han-huang-480014261/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/my_photo.jpg
+avatar: ./assets/img/my_photo.jpeg
 # favicon: ./favicon_io/android-chrome-512x512.png
 # favicon_dark: ./favicon_io/android-chrome-512x512.png
 favicon: ./favicon_io/favicon.ico

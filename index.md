@@ -14,10 +14,10 @@ I am interested in exploring the undesirable behaviors of ML models and in advan
 - **Computer Vision:** 
 - **Machine Learning:** -->
 
-## News
+<!-- ## News
 
 - **[June 2025]** I am visiting [CompLING](https://compling-wat.com/) for my summer internship.
-- **[May 2025]** Our paper on certified robustness has been accepted to ICML 2025.
+- **[May 2025]** Our paper on certified robustness has been accepted to ICML 2025. -->
 
 
 {% include_relative _includes/publications.md %}
