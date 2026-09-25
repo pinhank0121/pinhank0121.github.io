@@ -1,6 +1,6 @@
 main:
   - title: "Expanding the Role of Diffusion Models for Robust Classifier Training"
-    authors: <strong>Pin-Han Huang</strong>, Shang-Tse Chen, Hsuan-Tien Lin
+    authors: <strong>Pin-Han Huang</strong>, Shang-Tse Chen<sup>†</sup>, Hsuan-Tien Lin<sup>†</sup>
     conference_short: NeurIPS
     pdf: ./assets/files/dra_preprint.pdf
     pdf_label: Preprint
