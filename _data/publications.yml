@@ -4,21 +4,21 @@ main:
     conference_short: NeurIPS
     pdf: ./assets/files/dra_preprint.pdf
     pdf_label: Preprint
-    conference: <span class="conference-name">NeurIPS 2026</span>
+    conference: NeurIPS 2026
+    venue_color: "#7B1FA2"
     image: ./assets/img/dra_method.png
-    badge_color: "#4C1D95"
-    badge_text_color: "#ffffff"
 
   - title: "Enhancing Certified Robustness via Block Reflector Orthogonal Layers and Logit Annealing Loss"
     authors: Bo-Han Lai*, <strong>Pin-Han Huang</strong>*, Bo-Han Kung*, Shang-Tse Chen
     conference_short: ICML
-    conference: <strong>ICML 2025 <i style="color:#000080">(Spotlight)</i></strong>
+    conference: ICML 2025
+    notes: Spotlight
+    venue_color: "#1C4F9C"
     page: https://bob1113.github.io/BRONet/
     arxiv: https://www.arxiv.org/abs/2505.15174
     code: https://github.com/ntuaislab/BRONet
     image: ./assets/img/bro_teaser.png
     openreview: https://openreview.net/forum?id=S2K5MyRjrL
-    # notes: Spotlight
     
 
   # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation

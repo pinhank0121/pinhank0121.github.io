@@ -1,3 +1,5 @@
+<div class="panel">
+
 <h2 id="publications" style="margin: 2px 0px -15px;">Research</h2>
 
 <div class="publications">
@@ -5,27 +7,20 @@
 
 {% for link in site.data.publications.main %}
 
-<li>
+<li{% if link.venue_color %} style="--venue-color: {{ link.venue_color }};"{% endif %}>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 0;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="{{ link.title }}">
     {% if link.conference_short %}
-    {% assign badge_style = "" %}
-    {% if link.badge_color %}
-    {% assign badge_style = badge_style | append: "background-color: " | append: link.badge_color | append: ";" %}
-    {% endif %}
-    {% if link.badge_text_color %}
-    {% assign badge_style = badge_style | append: " color: " | append: link.badge_text_color | append: ";" %}
-    {% endif %}
-    <abbr class="badge"{% if badge_style != "" %} style="{{ badge_style }}"{% endif %}>{{ link.conference_short }}</abbr>
+    <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.arxiv | default: link.openreview | default: link.page | default: link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+      <div class="periodical"><em>{{ link.conference }}</em>{% if link.notes %} <span class="note">· {{ link.notes }}</span>{% endif %}
       </div>
     <div class="links">
       {% if link.arxiv %} 
@@ -46,9 +41,6 @@
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       {% endif %}
-      <!-- {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %} -->
       {% if link.others %} 
       {{ link.others }}
       {% endif %}
@@ -56,7 +48,6 @@
   </div>
 </div>
 </li>
-<br>
 
 {% endfor %}
 
@@ -65,4 +56,6 @@
 
 <div style="text-align: right; font-size: 0.9em; margin-top: 10px;">
 *Equal Contribution &nbsp; <sup>†</sup>Co-advisors
+</div>
+
 </div>

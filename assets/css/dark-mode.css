@@ -1,0 +1,36 @@
+/* Dark theme and the light/dark toggle; loaded when auto_dark_mode is on.
+   _layouts/homepage.html sets data-theme on <html> from the visitor's saved
+   choice, defaulting to light. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0e131a;
+  --panel-bg: #161d27;
+  --panel-border: #232c39;
+  --panel-shadow: none;
+  --text: #c3cad3;
+  --text-muted: #9aa5b1;
+  --heading: #DAEBFE;
+  --link: #8BB8E8;
+  --link-hover: #DAEBFE;
+  --strong: #eef2f6;
+  --border: #2a3441;
+  --icon: #8BB8E8;
+  --btn-text: #c3cad3;
+  --btn-border: #3a4655;
+  --figure-bg: #ffffff;
+  --figure-border: #2a3441;
+}
+
+/* Paper figures have white backgrounds; dim them slightly so they don't glare. */
+[data-theme="dark"] .publications ol.bibliography li .teaser { filter: brightness(0.92); }
+
+/* Venue colors are too dark for text on the dark background, so lighten them. */
+[data-theme="dark"] .publications ol.bibliography li .periodical .note { color: color-mix(in srgb, var(--venue-color, #2774AE) 45%, #ffffff); }
+
+.theme-toggle { position: fixed; top: 16px; right: 16px; z-index: 10; display: flex; align-items: center; justify-content: center; width: 2.5rem; height: 2.5rem; padding: 0; border-radius: 50%; border: 1px solid var(--panel-border); background: var(--panel-bg); box-shadow: var(--panel-shadow); color: var(--icon); font-size: 1rem; cursor: pointer; transition: transform 0.2s, background-color 0.2s, border-color 0.2s; }
+
+.theme-toggle:hover { color: var(--link); transform: rotate(-20deg); }
+
+.theme-toggle .fa-sun, [data-theme="dark"] .theme-toggle .fa-moon { display: none; }
+
+[data-theme="dark"] .theme-toggle .fa-sun { display: inline; }
